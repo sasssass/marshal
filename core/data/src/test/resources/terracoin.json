@@ -1,0 +1,72 @@
+{
+  "status": {
+    "timestamp": "2025-02-03T13:00:44.592Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 20,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": {
+    "4": {
+      "id": 4,
+      "name": "Terracoin",
+      "symbol": "TRC",
+      "slug": "terracoin",
+      "num_market_pairs": 7,
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "tags": [
+        {
+          "slug": "mineable",
+          "name": "Mineable",
+          "category": "OTHERS"
+        },
+        {
+          "slug": "pow",
+          "name": "PoW",
+          "category": "ALGORITHM"
+        },
+        {
+          "slug": "sha-256",
+          "name": "SHA-256",
+          "category": "ALGORITHM"
+        },
+        {
+          "slug": "masternodes",
+          "name": "Masternodes",
+          "category": "CATEGORY"
+        }
+      ],
+      "max_supply": 42000000,
+      "circulating_supply": 0,
+      "total_supply": 34548312.14956619,
+      "is_active": 1,
+      "infinite_supply": false,
+      "platform": null,
+      "cmc_rank": 6006,
+      "is_fiat": 0,
+      "self_reported_circulating_supply": 34548280.64956619,
+      "self_reported_market_cap": 721767.7880213624,
+      "tvl_ratio": null,
+      "last_updated": "2025-02-03T12:58:00.000Z",
+      "quote": {
+        "USD": {
+          "price": 0.020891568971043002,
+          "volume_24h": 3967.77588269,
+          "volume_change_24h": 0.6936,
+          "percent_change_1h": -0.21289093,
+          "percent_change_24h": -7.52911668,
+          "percent_change_7d": -16.94919826,
+          "percent_change_30d": -28.81324259,
+          "percent_change_60d": -61.02435917,
+          "percent_change_90d": -61.02435917,
+          "market_cap": 0,
+          "market_cap_dominance": 0,
+          "fully_diluted_market_cap": 877445.9,
+          "tvl": null,
+          "last_updated": "2025-02-03T12:58:00.000Z"
+        }
+      }
+    }
+  }
+}

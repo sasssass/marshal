@@ -1,0 +1,99 @@
+{
+  "status": {
+    "timestamp": "2025-02-03T12:26:55.695Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 21,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": {
+    "4": {
+      "id": 4,
+      "name": "Terracoin",
+      "symbol": "TRC",
+      "category": "coin",
+      "description": "Terracoin (TRC) is a cryptocurrency launched in 2012. Users are able to generate TRC through the process of mining. Terracoin has a current supply of 34,548,213.14956619 with 0 in circulation. The last known price of Terracoin is 0.02100546 USD and is down -7.69 over the last 24 hours. It is currently trading on 7 active market(s) with $3,969.53 traded over the last 24 hours. More information can be found at http://www.terracoin.io/.",
+      "slug": "terracoin",
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4.png",
+      "subreddit": "terracoin",
+      "notice": "",
+      "tags": [
+        "mineable",
+        "pow",
+        "sha-256",
+        "masternodes"
+      ],
+      "tag-names": [
+        "Mineable",
+        "PoW",
+        "SHA-256",
+        "Masternodes"
+      ],
+      "tag-groups": [
+        "OTHERS",
+        "ALGORITHM",
+        "ALGORITHM",
+        "CATEGORY"
+      ],
+      "urls": {
+        "website": [
+          "http://www.terracoin.io/"
+        ],
+        "twitter": [
+          "https://twitter.com/Terracoin_TRC"
+        ],
+        "message_board": [
+          "https://medium.com/@clockuniverse"
+        ],
+        "chat": [
+          "https://discord.gg/enjYkRmxm9",
+          "https://t.me/terracoin"
+        ],
+        "facebook": [
+          "https://www.facebook.com/TheTerracoinFoundation"
+        ],
+        "explorer": [
+          "https://insight.terracoin.io/",
+          "https://explorer.terracoin.io/chain/Terracoin",
+          "https://chainz.cryptoid.info/trc/"
+        ],
+        "reddit": [
+          "https://reddit.com/r/terracoin"
+        ],
+        "technical_doc": [
+          "https://wiki.terracoin.io/view/Whitepaper"
+        ],
+        "source_code": [
+          "https://github.com/terracoin"
+        ],
+        "announcement": [
+          "https://bitcointalk.org/index.php?topic=1364146.0"
+        ]
+      },
+      "platform": null,
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "twitter_username": "Terracoin_TRC",
+      "is_hidden": 0,
+      "date_launched": "2012-10-26T00:00:00.000Z",
+      "contract_address": [],
+      "self_reported_circulating_supply": 34548280.64956619,
+      "self_reported_tags": [
+        "Hybrid - PoW & PoS",
+        "SHA-256",
+        "Philanthropy",
+        "Store Of Value",
+        "Atomic Swaps",
+        "Privacy",
+        "Mixer & Coinjoin",
+        "Masternodes",
+        "DAO",
+        "Wallet",
+        "Governance",
+        "Layer 1"
+      ],
+      "self_reported_market_cap": 726058.9993019206,
+      "infinite_supply": false
+    }
+  }
+}

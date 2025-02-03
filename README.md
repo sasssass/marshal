@@ -1,5 +1,5 @@
-**Crypto Marshal
-**
+**Crypto Marshal**
+
 Track crypto curreneis, all in Kotlin
 
 ![image](https://github.com/user-attachments/assets/5b5a77a6-f106-4967-8f2f-d95f653403aa)

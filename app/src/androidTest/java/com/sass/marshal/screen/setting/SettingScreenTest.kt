@@ -5,6 +5,7 @@ import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
+import com.sass.data.di.DataStoreModule
 import com.sass.data.di.NetworkModule
 import com.sass.domain.model.currency.CurrencyType
 import com.sass.domain.model.setting.ThemeType
@@ -22,6 +23,7 @@ import org.junit.Test
 
 @UninstallModules(
     NetworkModule::class,
+    DataStoreModule::class,
 )
 @HiltAndroidTest
 class SettingScreenTest {

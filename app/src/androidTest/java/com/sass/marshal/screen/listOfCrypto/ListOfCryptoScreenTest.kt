@@ -3,6 +3,7 @@ package com.sass.marshal.screen.listOfCrypto
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import com.sass.data.di.DataStoreModule
 import com.sass.data.di.NetworkModule
 import com.sass.marshal.HiltTestActivity
 import com.sass.marshal.ui.MainCompose
@@ -18,6 +19,7 @@ import org.junit.Test
 
 @UninstallModules(
     NetworkModule::class,
+    DataStoreModule::class,
 )
 @HiltAndroidTest
 class ListOfCryptoScreenTest {

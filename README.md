@@ -9,3 +9,9 @@ Track crypto curreneis, all in Kotlin
 this app is writtien in Clean MVVM
 
 ![image](https://github.com/user-attachments/assets/eae6b010-3d76-417a-b573-bc8be3df9e6e)
+
+**API**
+
+crypto : https://pro-api.coinmarketcap.com/
+
+exchange rate : https://api.frankfurter.dev

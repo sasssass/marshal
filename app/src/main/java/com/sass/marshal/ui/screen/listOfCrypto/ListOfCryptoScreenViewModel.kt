@@ -76,7 +76,7 @@ class ListOfCryptoScreenViewModel
         fun search(input: String) {
             val newCryptoCurrencyList =
                 allCurrencies.filter {
-                    it.name.contains(input)
+                    it.name.lowercase().contains(input.lowercase()) || it.code.lowercase().contains(input.lowercase())
                 }
             _uiState.update {
                 it.copy(

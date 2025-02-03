@@ -217,6 +217,7 @@ fun Link(pair: Pair<Int, String>) {
 private fun Shimmer() {
     Row(
         verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.fillMaxWidth(),
     ) {
         Box(
             modifier =
@@ -229,25 +230,27 @@ private fun Shimmer() {
         )
 
         Column(
-            modifier = Modifier.padding(8.dp),
+            modifier = Modifier.padding(8.dp).fillMaxWidth(),
         ) {
-            Text(
-                text = "                   ",
+            Row(
                 modifier =
                     Modifier
+                        .width(48.dp)
+                        .height(24.dp)
                         .shimmer()
                         .background(MaterialTheme.colorScheme.secondary),
-            )
+            ) {}
 
             Spacer(modifier = Modifier.height(4.dp))
 
-            Text(
-                text = "                   ",
+            Row(
                 modifier =
                     Modifier
+                        .width(48.dp)
+                        .height(24.dp)
                         .shimmer()
                         .background(MaterialTheme.colorScheme.secondary),
-            )
+            ) {}
         }
     }
 
@@ -256,13 +259,14 @@ private fun Shimmer() {
     for (i in 0..8) {
         Spacer(modifier = Modifier.height(4.dp))
 
-        Text(
-            text = "                                      ",
+        Row(
             modifier =
                 Modifier
+                    .height(24.dp)
+                    .fillMaxWidth()
                     .shimmer()
                     .background(MaterialTheme.colorScheme.secondary),
-        )
+        ) {}
 
         Spacer(modifier = Modifier.height(4.dp))
     }
